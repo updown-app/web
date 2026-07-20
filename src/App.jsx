@@ -4,6 +4,7 @@ import ProductIntroSection from './sections/ProductIntroSection'
 import FeaturesSection from './sections/FeaturesSection'
 import HowItWorksSection from './sections/HowItWorksSection'
 import VisionSection from './sections/VisionSection'
+import CTASection from './sections/CTASection'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <FeaturesSection />
       <HowItWorksSection />
       <VisionSection />
+      <CTASection />
     </Layout>
   )
 }
